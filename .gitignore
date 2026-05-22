@@ -1,0 +1,39 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- 项目生成物 ----
+# 本地行情缓存（可随时重新拉取，不入库）
+data/cache/
+# 回测输出（图表等）
+output/
+
+# ---- 虚拟环境 / 密钥 ----
+.venv/
+venv/
+env/
+.env
+*.key
+
+# ---- Claude Code 本地个人配置（含本机权限白名单，不入库）----
+.claude/settings.local.json
+
+# ---- IDE / 编辑器 ----
+.vscode/
+.idea/
+*.swp
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
